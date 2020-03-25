@@ -1,0 +1,27 @@
+{
+  "name": "discord-infector",
+  "version": "1.0.0",
+  "description": "Patch Discord to run a script pointed to by a given url every time it launches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js -t node12-win-x64 -o DiscordInfector.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/NickCopi/discord-infector.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Nick Copi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/NickCopi/discord-infector/issues"
+  },
+  "homepage": "https://gitlab.com/NickCopi/discord-infector#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
